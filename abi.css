@@ -1,0 +1,111 @@
+*{
+font-family: quicksand, sans-serif;
+font-style: normal;
+font-weight: 300;
+background color: #FAF9F6;
+box-sizing: border-box;
+color: black;
+}
+a{
+	text-decoration: none;
+}
+
+/* style for nav bar*/
+.nav1{
+	color:black;
+	font-size:20px;
+    display:block;
+    float:left;
+    
+}
+
+.nav2{
+	color:black;
+	text-align: center;
+    display:inline-block;
+    font-size: 36px;
+    
+}
+
+.nav3{
+	color:black;
+	font-size:20px;
+    display:block;
+    float:right;
+    display:inline-block;
+    
+}
+
+.nav {
+    width:100%;
+    margin:0 auto;
+    display:inline-block;
+    text-align:center;
+    
+}
+
+
+
+/* style for pics displayed */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+.column p{
+	text-align: center;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.row2::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.row2{
+	margin-bottom: 100px
+}
+header{
+	text-align: center;
+	margin-top:110px;
+	margin-right:178px; 
+	margin-bottom:160px;
+	margin-left:222px;
+	font-size: 50px;
+}
+
+
+.contact{
+	float: right;
+
+}
+
+
+.contact-pic{
+  margin-left: 100px;
+}
+
+
+
+
+.about{
+  text-align: center;
+  margin-right:250px ;
+  margin-left:250px;
+}
+
+
+footer{
+  text-align: center;
+  margin-right: 150px;
+  margin-bottom:150px;
+  margin-left:150px;
+  margin-top:150px;
+}
